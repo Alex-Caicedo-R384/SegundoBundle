@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1720051906761
+Build-Jdk-Spec: 22
+Bundle-Activator: org.orga.segundobunle.Activator
+Bundle-Description: segundobunle OSGi bundle project.
+Bundle-ManifestVersion: 2
+Bundle-Name: segundobunle Bundle
+Bundle-SymbolicName: segundobunle
+Bundle-Version: 0.0.1.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin 5.1.9
+Export-Package: org.orga.segundobunle;version="0.0.1.SNAPSHOT";uses:="or
+ g.osgi.framework"
+Import-Package: java.io,java.lang,java.lang.invoke,java.util,org.osgi.fr
+ amework;version="[1.10,2)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-6.3.1.202206071316
